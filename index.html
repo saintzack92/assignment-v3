@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <div class="parent-container">
+            <div class="left-button"></div>
+            <button class="right-button"></button>
+
+            <div class="container">
+                <img src="https://picsum.photos/id/237/200/300" class="active">
+                <img src="https://picsum.photos/seed/picsum/200/300" class="">
+                <img src="https://picsum.photos/200/300?grayscale" class="">
+                <img src="https://picsum.photos/200/300/?blur" class="">
+
+            </div>
+        </div>
+
+
+
+    </main>
+    <script src="./jquery.js"></script>
+    <script src="./main.js">
+
+
+    </script>
+    <script>$('.container').imageSlider({
+            interval: 2000,
+            slide: 'stop'
+        })</script>
+</body>
+
+</html>
