@@ -17,15 +17,12 @@
 
 })
 </script>
-
-<!-- .bullets {
+/*.bullets {
     width: 200px;
     margin: 0 auto;
     text-align: center;
-    // margin: 20px 0;
     position: relative;
     bottom: 30px;
-    // right: 200px;
     z-index: 300;
 
     .bullet {
@@ -37,8 +34,6 @@
         background: #333;
         margin: 0 5px;
         cursor: pointer;
-        // position: relative;
-        // z-index: 404;
         
     }
     .active{
@@ -46,4 +41,4 @@
         background: #ccc;
     }
     
-} -->
+} */
