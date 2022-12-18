@@ -1,62 +1,93 @@
+.parent-container {
+    background-color: bisque;
+    position: relative;
+    z-index: 100;
+    // width: 690px;
+    overflow: hidden;
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+    height: 100%;
+    align-items: center;
+    display: flex;
 
-    .parent-container {
-        background-color: bisque;
-        position: relative;
-        z-index: 99999;
-        // width: 690px;
-        overflow: hidden;
-        display: block;
-        margin: 0 auto;
-        width: 600px;
-        height: 100%;
-        align-items: center;
-        display: flex;
-
-        .left-button {
-            left: 0;
-            cursor: pointer;
-            width: 30px;
-            background-color: yellow;
-            height: 30px;
-            position: absolute;
-            z-index: 39;
-        }
-
-        .right-button {
-            right: 0;
-            cursor: pointer;
-            width: 30px;
-            background-color: yellow;
-            height: 30px;
-            position: absolute;
-            z-index: 39;
-        }
-
-        .container {
-            justify-content: center;
-            align-items: center;
-            margin: 0 auto;
-            // width: 100%;
-            // display: block;
-            background-color: darkolivegreen;
-            height: 500px;
-            display: flex;
-            position: relative;
-
-            // .box {
-            //     transform: scale(100%);
-            //     display: none;
-
-            // }
-
-            .active {
-                margin: 0 auto;
-                position: relative;
-                width: 300px;
-                height: 300px;
-                background-color: darkred;
-             
-                align-items: center;
-            }
-        }
+    .left-button {
+        left: 0;
+        cursor: pointer;
+        width: 30px;
+        background-color: yellow;
+        height: 30px;
+        position: absolute;
+        z-index: 39;
     }
+
+    .right-button {
+        right: 0;
+        cursor: pointer;
+        width: 30px;
+        background-color: yellow;
+        height: 30px;
+        position: absolute;
+        z-index: 39;
+    }
+
+    .container {
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        // width: 100%;
+        // display: block;
+        background-color: darkolivegreen;
+        height: 500px;
+        display: flex;
+        position: relative;
+
+        // .box {
+        //     transform: scale(100%);
+        //     display: none;
+
+        // }
+
+        .active {
+            margin: 0 auto;
+            position: relative;
+            width: 300px;
+            height: 300px;
+            background-color: darkred;
+
+            align-items: center;
+        }
+
+        
+    }
+    
+}
+.bullets {
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+    // margin: 20px 0;
+    position: relative;
+    bottom: 30px;
+    // right: 200px;
+    z-index: 300;
+
+    .bullet {
+        background-color: red;
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        border-radius: 5px;
+        background: #333;
+        margin: 0 5px;
+        cursor: pointer;
+        // position: relative;
+        // z-index: 404;
+        
+    }
+    .active{
+        background: #333;
+        background: #ccc;
+    }
+    
+}
