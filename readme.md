@@ -1,4 +1,5 @@
 1. install using npm install simple-image-slider-interval-configurables 
+//*install using command prompt inside your project, do not using gitbash.. i dont know how it wont works if install using gitbash 
 2. set your jquery file inside html title or place it outside above your html body closing tag. dont forget to place the valid jquery
 3. set your main.js/index.js where your javascript codes run
 4. since this is a slider that is switch the active's class value, place your .active class value on first img elements 
