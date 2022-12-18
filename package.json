@@ -1,6 +1,6 @@
 {
     "name": "simple-image-slider-interval-configurables",
-    "version": "1.0.9",
+    "version": "1.0.10",
     "description": "simple image slider - interval and automatic sliding is configurables",
     "main": "main.js",
     "scripts": {
