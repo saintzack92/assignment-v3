@@ -17,7 +17,9 @@
 
 })
 </script>
-/*.bullets {
+/*
+css
+.bullets {
     width: 200px;
     margin: 0 auto;
     text-align: center;
@@ -37,8 +39,8 @@
         
     }
     .active{
-        background: #333;
         background: #ccc;
     }
     
-} */
+} 
+*/
